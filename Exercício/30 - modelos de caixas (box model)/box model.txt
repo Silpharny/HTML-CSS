@@ -1,0 +1,72 @@
+Em uma página WEB, cada elemento é representado como um box retangular.
+Determinar o tamanho, propriedades - como sua cor, fundo, estilo das bordas - e a posição desses boxes é o objetivo do mecanismo de renderização.
+
+Tipos de box
+
+    1. Box-level
+        - O box sempre começa em uma nova linha
+        - Tag para criar um box-level:
+            <div>
+            <h1> - <h6>
+            <p>
+            <main>
+            <header>
+            <nav>
+            <article>
+            <footer>
+            <form>
+            <video>
+        - Ex: Dentro de uma box há 2 parágrafo, quero colocar uma box entre os parágrafos, ficará assim:
+        > Box (Contém)
+            -> parágrafo
+            -> div
+            -> parágrafo
+
+
+    2. Inline-level
+        - O box não quebra linha, ele continua na mesma linha do elemento
+        - Tag para criar um inline-level:
+            <span>
+            <a>
+            <code>
+            <small>
+            <strong>
+            <em>
+            <sup> - <sub>
+            <label>
+            <button>
+            <input>
+            <select>
+        - Ex: Dentro de uma box com 2 parágrafo, quero colocar uma box, ficará assim:
+
+        > Box (Contém)
+            -> parágrafo 1 -> span -> continuação do parágrafo 1
+            -> parágrafo 2
+
+Cada box tem um tamanho que é medido em:
+    - Altura = height
+    - Largura = width
+
+É possível personalizar cada box da seguinte forma:
+    - Borda = Border
+    - Preenchimento / Acochoamento = Pedding
+    - Margem = Margin  
+    - Contorno / Traçado = Outline
+
+É possível alterar o tipo de uma box
+    - Consigo transformar uma inline-box em uma box-level, também consigo fazer o contrário
+    - De inline-box para box-level
+        - display:block;
+    - De box-level para inline-box
+        - display:inline;
+
+    Quando criamos uma borda ela ficará grudada com o conteúdo, para dar um respiro ao conteúdo usamos o pedding.
+
+    Caso eu tenha duas box uma ao lado da outra, elas ficarão grudadas, para dar um espaço entre as box vamos usar o margin
+
+    Um outline é a borda da margem
+
+
+
+Referência:
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model

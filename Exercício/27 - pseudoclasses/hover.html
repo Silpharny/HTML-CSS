@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplos de hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*
+       Abaixo temos o exemplo de como modificar algo dentro de uma tag,
+       uma relação de pai e filho, onde o paragrafo é filho da div
+        
+       Aqui eu estou pedindo paraesconder o texto que está no paragrafo dentro da div
+       */
+        div > p {
+        display: none;
+        }
+
+        /*
+        Agora eu vou para mostrar o elemento escondido quando eu passar o mouse por cima da div
+        */
+
+        div:hover > p {
+            display: block;
+            background-color: black;
+            color: aliceblue;
+        }
+
+        div:hover {
+        color: rgb(2, 158, 158);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto escondido</p>
+    </div>
+</body>
+</html>

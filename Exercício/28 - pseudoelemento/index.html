@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Personalizados</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:visited {
+            color: rgb(3, 59, 59);
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        /*
+        O pseudoelemento serve para adicionar itens nos elementos
+        */
+        a::after {
+            content:'[Link]';
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://instagram.com/silpharny">Meu insta</a></li>
+        <li><a href="https://www.youtube.com/channel/UCJ8NY7wJe2x-qmG0yJ0Q7OQ">Canal no Youtube</a></li>
+        <li><a href="https://www.youtube.com/@manodeyvin">Canal do mano daivyn</a></li>
+    </ul>
+</body>
+</html>

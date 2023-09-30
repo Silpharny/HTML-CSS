@@ -1,0 +1,116 @@
+Git -> repositório Local
+GitHub -> repositório Remoto
+
+Com eles é possível guardar versões do desenvolvimento.
+
+O GitHub proporciona compartilhe meu código com outras pessoas e que eu trabalhe em equipe. 
+
+* Criando repositório Local
+
+- Para criar basta clicar em "file" -> New ropository
+- Em "Name" colocar o nome da pasta que estão os arquivos
+- Em "Local Path" colocar a pasta anterior a página de cima
+- Em "Licence" colocar MIT Licence
+
+* Criando repositório Remoto
+
+- Se eu criei um repositório Local, não preciso criar um remoto, apenas clico em "Publish Repository"
+- Agora meu repositório já está no GitHub e já posso compartilhar com outras pessoas
+
+
+* Dando manunteção ou modificação no códigos
+
+- Abrir o programa do GitHub no pc
+- Escolher o repositório que quero trabalhar
+- Clicar em "Open visual studio"
+- Posso modificar e alterar o código da maneira que eu preferir
+- Após finalizar preciso dar o "Commit" no meu código
+- Deixo um comentário do tipo "Atualização no botão x" , deixar um comentário do que foi alterado no código
+- Após isso eu alterei o meu repositorio Local
+- Para atualizar o repositorio remoto, basta clicar em "Push origin"
+
+* Para apagar repositorio corretamente
+
+Não se apaga repositorio diretamente no arquivo que está no computador
+
+- Entrar no app GitHub
+- Escolher o repositorio
+- Clicar na aba "Repository" do menu
+- Clicar em remover
+- Confirmar a remoção
+
+Pronto! Apaguei o repositorio local, agora vamos apagar o repositorio remoto, para isso:
+
+- Abra o site do GitHub
+- Entre na conta
+- Vá até o repositorio que deseja apagar
+- Vá em configurações
+- ir até a sessão que está "Danger zone"
+- Clicar em "Delete this Repository"
+
+* Como colocar site no ar hospedado pelo GitHub
+
+- Ir até o repositorio no site do GitHub
+- Ir até configurações
+- "Pages"
+- Publicar repositorio
+ 
+ * Clonando repositorio
+
+ Ajuda a pegar projetos dentro do GitHub para estudar
+
+ - Abrir o projeto no site do GitHub
+ - Clicar em <code> geralmente é um botão verde
+ - Posso abrir de duas formas
+    > 1- Com o programa do GitHub instalado no computador
+    > 2- Baixar o arquivo Zip e abrir no computador
+
+* Usando o GitHub em outros computadores
+
+Posso acabar tendo que ir para outro lugar e ter que abrir um repositorio de um trabalho específico em outro lugar, para isso:
+
+- Abrir o programa do GitHub no computador 
+- Clicar em "file"
+- "options"
+- "accounts"
+- Entrar com minha conta do GitHub
+
+Pronto, já entrei no GitHub, porém preciso sincronizar meus projetos com o git também, para isso:
+
+- Ainda no programa do GitHub clico em "file"
+- "options"
+- "Git"
+- Provavelmente já vai ter um email e senha pre escrito, basta clicar em salvar
+
+
+Agora que estão sincronizados, preciso trazer o projeto para o novo computador, para isso:
+
+- No programa do GitHub clico no repositorio que desejo trabalhar
+- vai abrir uma opção para clonar o projeto
+- Vai pedir o local para salvar o arquivo
+- Clicar em "clone"
+- Esperar carregar
+- Pronto, agora posso usar o arquivo normalmente
+
+Vamos supor que esse computador não seja meu, seja de outra pessoa e estou apenas utilizando para codar um projeto.
+
+Após finalizar o projeto, preciso sair e não deixar nenhum arquivo, para isso:
+
+- Fecho todas as abas, vou até o app do GitHub no pc
+- Clicar na aba "Repository"
+- "Remove" para remover do repositorio local
+- Posso marcar a caixa para apagar os arquivos no computador também
+- "Remove" para apagar tudo
+
+Todos os arquivos apagados, agora preciso deslogar da minha conta da maneira correta, para isso:
+
+- Clicar em "file"
+- "options"
+- Em "accounts" clicar em "sign out"
+- Ainda em "options" tenho que clicar em Git 
+- Apago todos os dados, nome e email
+- Clico em salvar
+ 
+ Pronto! Agora basta ir até a lixeira e apagar os arquivos do projeto que eu estava fazendo.
+
+ 

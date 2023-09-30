@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+a {
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.normal {
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.322);
+    box-shadow: inset 100pxpx 0px 10px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem > p {
+    margin-top: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.137);
+}
+
+#img1 {
+    background-image: url(maps-1854199_1280.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    background-image: url(bird-7953069_1280.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    padding: 10px;
+}

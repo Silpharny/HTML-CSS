@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<body>
+    <form action="cadastro.php" method="POST">
+        <p>
+            <label for="insu">Usuário:</label>
+            <input type="text" name="usu" id="insu" required size="10">
+            <!--
+                Required é usado todas as vezes que eu quiser que um campo seja obrigatório
+            -->
+        </p>
+
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="4" maxlength="8" size="12" placeholder= "Senha do usuário">
+            <!--
+                Quando uso: required minlength ="4" 
+                Estou falando que o campo tem que ter no mínimo 3 caracter
+                
+                Quando uso: maxlength="8"
+                Estou limitando o número máximo de caracter
+
+                Quando uso: Size="12":
+                Estou falando para mostrar até 12 caracter enquanto o usuário escreve
+
+                Quando uso placeholder= "Senha do usuário"
+                Estou deixando claro que aquele é um campo para senha
+            -->
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

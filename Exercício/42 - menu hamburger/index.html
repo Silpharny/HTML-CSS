@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu hamburger</title>
+    <link rel="stylesheet" href="style.css">
+    <!--
+        O link abaixo é o de referência para o icone de menu hamburger do google, para ver mais icones acessar: https://fonts.google.com/icons
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <!--Esse é o id de referência do icone, nele eu vou colocar um código JavaScript de onclick-->
+        <i id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        
+        <!--Abaixo temos o menu com uma id que vai ser a referência para o Código JavaScript-->
+        <menu id="itensdomenu">
+
+            <ul>
+                <li>Menu 1</li>
+                <li>Menu 2</li>
+                <li>Menu 3</li>
+            </ul>
+
+        </menu>
+    </header>
+    
+    <script> /*Código JavaScript*/
+        function clickMenu(){
+         if (itensdomenu.style.display == `block`) {
+            itensdomenu.style.display = `none`
+         } else {
+            itensdomenu.style.display = `block`
+        }}
+    </script>
+</body>
+</html>

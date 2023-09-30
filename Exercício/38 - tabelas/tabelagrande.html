@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela grande</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 300px;
+            height: 100px;
+            border-collapse: collapse;
+            position: relative; /* Para acompanhar o rolamento da página*/
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        } /* Para na hora que rolar a página, o cabeçalho acompanhar*/
+
+        th {
+            text-align: left;
+            background-color: gray;
+            color: white;
+            border: 1px solid black;
+            padding: 8px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        tfoot {
+            text-align: left;
+            background-color: gray;
+            color: white;
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        caption {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 17px;
+            background-color: gainsboro ;
+            margin: auto;
+            padding: 15px;
+            border: 1px solid black;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia para tabelas grandes
+        Caption (legenda da tabela)
+        Table
+            THead
+                tr, td, th
+            TBody
+                tr, td, th
+            TFoot
+                tr, td, th
+    -->
+
+    <table>
+        <caption>Unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">UF</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>RJ</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>SP</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>MG</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td>AP</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+            
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de Estados</th>
+            <th>5</th>
+        </tfoot>
+    </table>
+</body>
+</html>

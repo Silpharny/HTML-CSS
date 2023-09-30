@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+   
+    <style>
+        * {
+            text-align: center;
+        }
+        div {
+            display: inline-block;
+            background-color: lightslategrey;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        /* 
+        As pseudo classes são marcadas com os dois pontos ":"
+        Como usar? 
+        Assim como a class é . e o id é # as pseudoclasses estão associadas a uma tag 
+        Para que servem?
+        Elas mudam o estado de um elemento, veja no exemplo abaixo:
+        */
+
+        div:hover {
+            background-color: aqua;
+        }
+        /*
+        Nesse exemplo acima eu vou mudar o estado da div quando passar o mouse no elemento.
+        */
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>

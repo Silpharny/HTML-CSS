@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 1</title>
+    <style>
+        body {
+            display: block;
+            background-color: white;
+        }
+        form {
+            background-color: lightgrey;
+            width: 300px;
+            padding: 10px;
+        }
+        form > p > input {
+            width: 200px;
+        }
+        input:hover {
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu Primeiro Formulário</h1>
+    <!-- 
+    Method: GET X POST
+    GET Para quando os dados não forem sensíveis 
+    POST Para dados sensíveis, envios de dados grandes como foto, vídeo e mensagens com mais de 3k palavras
+    -->
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="inome">Nome:</label> 
+            <input type="nome" name="nome" id="inome">
+        </p>
+        
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <input type="sobrenome" name="sobrenome" id="isobrenome">
+        </p>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

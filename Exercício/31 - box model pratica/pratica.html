@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+       
+        h1 {
+            background-color: antiquewhite;
+            height: 100px;
+            width: 400px;
+            text-align: center;
+
+            border: 3px;
+            border-style: solid;
+            border-radius: 10px;
+            border-color: black;
+
+            /* BORDERR
+            Simplificando código (shorthand) - Posso substituir o código acima por:
+            border: size > style > color
+            border: 3px solid black;
+            */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /* PADDING
+            Simplificando código (shorthand) - Posso substituir o código acima por:
+            pading: top > right > botton > left
+            padding: 10px 10px 10px 10px;*
+            Caso todos os lados seja igual, posso colocar o valor apenas uma vez
+            */
+
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+
+
+            /* MARGIN
+            Simplificando código (shorthand) - Posso substituir o código acima por:
+            margin: top > right > botton > left
+            margin: 10px 10px 10px 10px;*
+            Caso todos os lados seja igual, posso colocar o valor apenas uma vez
+            
+            para centralizar o elemento na tela, basta colocar:
+            
+            margin:auto;
+            */
+            
+            outline-width: 3px;
+            outline-style: dashed;
+            outline-color: salmon;
+            
+            /* OUTLINE
+            Simplificando código (shorthand) - Posso substituir o código acima por:
+            
+            outline: 5px dashed salmon;
+            */
+
+        }
+
+        a {
+            border: 1px;
+            border-style: solid;
+            border-radius: 10px;
+            border-color: black;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="a">links são exemplos de inline-level</a>, vamos ver como tudo isso funciona </p>
+</body>
+</html>

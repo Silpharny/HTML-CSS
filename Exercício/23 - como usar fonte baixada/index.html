@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'noqueeuquiser';
+            src: url('/font/aAksiMosi.otf') format(opentype), url('/font/aAksiMosi.ttf') format(truetype);
+        }
+
+        /*
+        1.Baixar a fonte
+        2.Ela vai vir com 1 ou 2 arquivos nos formatos: otf, ttf
+        3.Na linha abaixo de style, colocar @font-face
+        4.Em url, colocar o nome do arquivo entre aspas simples
+        5.Em format(), colocar os seguintes formatos
+
+        Tipos de format()
+            - opentype(otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - SVG
+        */
+        body{
+            font-family:'noqueeuquiser';
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quasi minima numquam, dolorum voluptatem blanditiis ipsam rem cum laborum aliquid officiis praesentium eligendi architecto. Amet vel inventore deserunt ex tempore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ipsa quos reiciendis sunt quam non debitis facilis culpa accusamus corporis doloribus fugit harum ea at alias? Quam vel quidem amet.</p>
+</body>
+</html>

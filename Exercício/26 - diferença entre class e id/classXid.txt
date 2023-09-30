@@ -1,0 +1,20 @@
+id serve para indicar apenas 1 único elemento
+class serve para indicar mais de um elemento, ou seja, quando eu quero personalizar mais de um elemento da mesma forma
+
+    Tudo que for id em HTML, aqui no CSS vai ser #
+    Tudo que for class em HTML, aqui no CSS vai ser .
+
+
+Se eu usar um id = "exemplo";  em alguma tag do meu site, eu não vou poderei usar ele novamente em outra Tag
+
+Vamos supor que eu tenha 5 tags h2 no meu site e eu queira que 3 deles tenham a mesma formatação, para isso eu uso a class
+
+
+Uma maneira de pensar em IDs e classes é como códigos de barras e números de série. Por exemplo, todos os produtos em uma loja de eletrônicos têm um código de barras e um número de série, mas fornecem diferentes tipos de informações.
+
+Todos os telefones com a mesma marca e modelo terão o mesmo código de barras para denotar informações como preço ou informações específicas do produto, mas não ajudará você a diferenciar um telefone do outro. Um número de série, no entanto, é exclusivo para um telefone específico. Isso não lhe dirá nada sobre o preço ou onde localizá-lo na loja, mas pode identificar um determinado objeto.
+
+Freqüentemente, um elemento específico pode ter um ID e uma classe (ou várias classes) associados a ele.
+
+
+

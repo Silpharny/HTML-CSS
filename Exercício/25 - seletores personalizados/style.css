@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 100, 0);
+}
+
+/*
+para personalizar apenas a tag alterada, basta colocar tag # nome escolhido. 
+
+No exemplo abaixo estou personalizando o primeiro título do site, ele foi personalizado no HTML como "principal". Para personalizar ele aqui no CSS basta colocar h1#principal 
+*/
+ h1#principal {
+    text-align: center;
+    background-color: aliceblue;
+ }
+
+h2 {
+    color: rgb(73, 109, 71);
+}
+
